@@ -4,8 +4,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import helmet from 'helmet';
 import morgan from 'morgan';
-// import dotenv from 'dotenv';
-require('dotenv').config();
+import dotenv from 'dotenv';
 dotenv.config();
 
 import clientRoutes from './routes/client.js';
